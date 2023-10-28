@@ -12,7 +12,5 @@ const parent = React.createElement("div", {id: "parent"}, [
     ]),
 ]);
 console.log("parent creat element >>...",parent); // it is a object react dom convert it into a html tags
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
 root.render(parent);
